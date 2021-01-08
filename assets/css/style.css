@@ -2,9 +2,22 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+.navbar-nav {
+    text-transform: uppercase;
+    /* add color for active link #ffc000, 
+       color for non-active link and collapsed menu button #ca9903 */
+}
+
+.navbar-brand {
+    height:50px;
+    width:140px;
+}
+
 .jumbotron {
-     background: url('../images/home-page-image.jpg') no-repeat  center center;
+    background: url('../images/home-page-image.jpg') no-repeat  center center;
     background-size: 100% 100%;
-     opacity: 0.9;
-     height: 100vh;
+    opacity: 0.9;
+    height: 100vh;
+    color: white;
+    /* add fadeout effect */
 }
