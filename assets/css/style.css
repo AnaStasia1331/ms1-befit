@@ -2,13 +2,33 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+.section-header {
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    margin: 20px 0 10px 0;
+}
+
 /* ----------------------------------------Header */
 
-.navbar-nav {
-    text-transform: uppercase;
-    /* add color for active link #ffc000, 
-       color for non-active link and collapsed menu button #ca9903 */
+.navbar-dark .navbar-nav .active .nav-link {
+    color: #ffc000;
 }
+
+.navbar-dark .navbar-nav .nav-link {
+    text-transform: uppercase;
+    color: #ca9903;
+}
+
+.navbar-dark .navbar-nav .nav-item a:hover {
+    color: #ffc000;
+}
+
+
+
+/* ToDo:
+    fix the bug with nav items selection 
+ */
 
 .navbar-brand {
     height:50px;
@@ -22,18 +42,43 @@ body {
     background-size: 100% 100%;
     opacity: 0.9;
     height: 100vh;
-    color: white;
+    color: #fff;
+    margin-bottom: 0;
     /* add fadeout effect */
 }
 
-/* ----------------------------------------Footer */
+/* ----------------------------------------About Us Section */
 
-footer {
-    background-color: #343a40;
-    color: white;
+#about-info {
+    background-color:#ECECEC;
 }
 
+#about-info p {
+    text-align: justify;
+}
+
+/* ToDo: 
+style About Us paragraph */
+
+/* ----------------------------------------Footer */
+
+#footer-details {
+    background-color: #343a40;
+    color: #fff;
+    font-size: 12px;
+}
+
+#footer-details h5 {
+    text-transform: uppercase;
+    font-size: 14px;
+    padding-top: 20px;
+} 
+
+#copyright-info p {
+    margin-bottom: 0;
+    padding-bottom: 3px;
+    font-size: 10px;
+} 
+
 /* ToDo:
-change h5 to uppercase
-make font smaller 
 style icons */
