@@ -1,3 +1,4 @@
+/* ----------------------------------------General */
 body {
     font-family: 'Open Sans', sans-serif;
 }
@@ -6,7 +7,12 @@ body {
     text-transform: uppercase;
     font-weight: bold;
     text-align: center;
-    margin: 20px 0 10px 0;
+    margin-bottom: 0;
+    padding: 40px 0 30px 0;
+}
+
+#about-info, #gym-offers, #membership-options  {
+    background-color:#ECECEC;
 }
 
 /* ----------------------------------------Header */
@@ -49,16 +55,18 @@ body {
 
 /* ----------------------------------------About Us Section */
 
-#about-info {
-    background-color:#ECECEC;
-}
-
 #about-info p {
     text-align: justify;
+    margin: 0;
 }
 
 /* ToDo: 
 style About Us paragraph */
+
+/* ----------------------------------------Gym Offers Section */
+
+/* ToDo: 
+style paragraphs */
 
 /* ----------------------------------------Footer */
 
