@@ -2,6 +2,8 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+/* ----------------------------------------Header */
+
 .navbar-nav {
     text-transform: uppercase;
     /* add color for active link #ffc000, 
@@ -13,6 +15,8 @@ body {
     width:140px;
 }
 
+/* ----------------------------------------Home page image */
+
 .jumbotron {
     background: url('../images/home-page-image.jpg') no-repeat  center center;
     background-size: 100% 100%;
@@ -21,3 +25,15 @@ body {
     color: white;
     /* add fadeout effect */
 }
+
+/* ----------------------------------------Footer */
+
+footer {
+    background-color: #343a40;
+    color: white;
+}
+
+/* ToDo:
+change h5 to uppercase
+make font smaller 
+style icons */
