@@ -68,6 +68,32 @@ style About Us paragraph */
 /* ToDo: 
 style paragraphs */
 
+/* ----------------------------------------Membership Options Section */
+
+#membership-options .card {
+    color: black;
+    background-color: white;
+    border-color: #ffc000;
+    border-style: solid;
+    border-width: thin;
+}
+
+#membership-options .card .card-header h4 {
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+#membership-options .card-body .card-title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#membership-options .card-body ul {
+    list-style-type: none;
+}
+
 /* ----------------------------------------Footer */
 
 #footer-details {
