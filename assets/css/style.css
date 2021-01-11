@@ -96,9 +96,11 @@ style paragraphs */
     list-style-type: none;
 }
 
+/* ToDo: add and style paragraph after the title  */
+
 /* ----------------------------------------Sign up form */
 
-/* style labels, paragraph, text boxes borders, frame around the form?
+/* ToDo: style labels, paragraph, text boxes borders, frame around the form?
 capitalize options
 */
 
@@ -123,4 +125,4 @@ capitalize options
 } 
 
 /* ToDo:
-style icons */
+style icons, move the content to the center of each column */
