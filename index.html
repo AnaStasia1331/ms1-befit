@@ -185,9 +185,53 @@
             </div>
         </div>
     </section>
-    <section id="sign-up-form" class="container-fluid">
+    <section id="sign-up-form" class="">
         <div class="container">
             <h4 class="section-header">Sign Up</h4>
+            <p>Please fill in this form to sign up for one of the gym offers.</p>
+            <hr>
+            <form>
+                <div class="form-row">
+                    <div class="col">
+                        <label for="firstName">First Name</label>
+                        <input type="text" class="form-control" placeholder="Enter your first name" name="firstName" required>
+                    </div>
+                    <div class="col">
+                        <label for="lastName">Last Name</label>
+                        <input type="text" class="form-control" placeholder="Enter your last name" name="lastName" required>
+                    </div>
+                </div>
+                <br>
+                <div class="form-row">
+                    <div class="col">
+                        <label for="emailField">Email</label>
+                        <input type="email" class="form-control" placeholder="name@example.com" name="emailField" required>                       
+                    </div>
+                </div>
+                <br>
+                <div class="form-row">
+                    <div class="col">
+                        <select class="form-control" name="signUpOptions">
+                            <option disabled selected>Select an option...</option>
+                            <option>off-peak</option>
+                            <option>standard</option>
+                            <option>premium</option>
+                            <option>free group lesson</option>
+                            <option>extra personal training</option>
+                        </select>
+                    </div>
+                </div>
+                <br>
+                <div class="form-row">
+                    <div class="col">
+                        <label for="messageBox">Message</label>
+                        <textarea class="form-control" placeholder="Type your message here..." name="messageBox" rows="5"></textarea>
+                    </div>
+                </div>
+                <br>
+                <button type="submit" class="btn btn-secondary btn-lg btn-block">Submit</button>
+            </form>
+            <hr>
         </div>
     </section>
     <footer id="footer-details" class="container-fluid">
