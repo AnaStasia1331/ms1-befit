@@ -3,19 +3,34 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+#about-info, #gym-offers, #membership-options, #sign-up-form  {
+    background-color:#ECECEC;
+    margin-bottom: 0;
+}
+
+/* borrowed the divider from this site https://blog.avada.io/css/dividers/ and customized it */
+
+.divider-fg {
+  height: 2px;
+  width: 40%;
+  background: linear-gradient(90deg, hsl(0, 0%, 92%), hsl(0, 0%, 42%), hsl(0, 0%, 92%));
+}
+
+.divider-bg {
+  padding: 70px 0 20px 0;
+  display: flex;
+  justify-content: center;
+  background: #ECECEC;
+}
+
 .section-header {
     text-transform: uppercase;
     font-weight: 800;
     text-align: center;
     margin-bottom: 0;
-    padding: 40px 0 40px 0;
+    padding: 50px 0 50px 0;
 }
 
-#about-info, #gym-offers, #membership-options, #sign-up-form  {
-    background-color:#ECECEC;
-    padding-bottom: 30px;
-    margin-bottom: 10px;
-}
 
 /* ----------------------------------------Header */
 
@@ -99,6 +114,10 @@ style paragraphs */
 /* ToDo: add and style paragraph after the title  */
 
 /* ----------------------------------------Sign up form */
+
+form {
+    padding-bottom: 70px;
+}
 
 /* ToDo: style labels, paragraph, text boxes borders, frame around the form?
 capitalize options
