@@ -67,7 +67,6 @@ body {
     height: 100vh;
     color: #fff;
     margin-bottom: 0;
-    /* add fadeout effect */
 }
 
 /* ----------------------------------------About Us Section */
@@ -83,7 +82,7 @@ style About Us paragraph */
 /* ----------------------------------------Gym Offers Section */
 
 /* ToDo: 
-style paragraphs */
+style paragraphs, add timetable/sign up form links to the text */
 
 /* ----------------------------------------Membership Options Section */
 
@@ -127,21 +126,27 @@ capitalize options
 
 #footer-details {
     background-color: #343a40;
-    color: #fff;
-    font-size: 12px;
+    color: #F5F5F5;
+    font-size: 14px;
 }
 
 #footer-details h5 {
     text-transform: uppercase;
     font-size: 14px;
+    font-weight: bold;
     padding-top: 20px;
 } 
 
+#social-media i {
+    padding: 5%;
+    font-size: 230%;
+    color: #F5F5F5;
+}
+
 #copyright-info p {
     margin-bottom: 0;
-    padding-bottom: 3px;
-    font-size: 10px;
-} 
-
-/* ToDo:
-style icons, move the content to the center of each column */
+    padding: 20px 0 5px 0;
+    font-size: 0.75rem;
+    font-style: oblique;
+    
+}
