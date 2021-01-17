@@ -61,7 +61,7 @@ from stackoverflow https://stackoverflow.com/questions/42586729/bootstrap-4-chan
     width:140px;
 }
 
-/* ----------------------------------------Home page image */
+/* ----------------------------------------Home Page Image */
 
 .jumbotron {
     background: url('../images/home-page-image.jpg') no-repeat  center center;
@@ -115,7 +115,7 @@ style paragraphs, add timetable/sign up form links to the text */
 
 /* ToDo: add and style paragraph after the title  */
 
-/* ----------------------------------------Sign up form */
+/* ----------------------------------------Sign Up Form */
 
 form {
     padding-bottom: 70px;
@@ -152,4 +152,14 @@ capitalize options
     font-size: 0.75rem;
     font-style: oblique;
     
+}
+
+/* ----------------------------------------Timetable Printing */
+@media print {
+  #timetable .container {
+    width: auto;
+  }
+   .navbar { 
+   display: none; 
+  }
 }
