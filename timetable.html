@@ -18,7 +18,7 @@
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon">
-                <i class="fas fa-bars"></i>
+                <i class="fas fa-bars" aria-hidden="true"></i>
             </span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -49,83 +49,108 @@
             <h4 class="section-header">Gym Timetable</h4>
             <div class="table-responsive-md">
                 <table class="table">
-                <caption>List of users</caption>
                 <thead>
                     <tr>
-                    <th scope="col">#</th>
-                    <th scope="col">First</th>
-                    <th scope="col">Last</th>
-                    <th scope="col">Handle</th>
-                    <th scope="col">#</th>
-                    <th scope="col">First</th>
-                    <th scope="col">Last</th>
-                    <th scope="col">Handle</th>
+                    <th scope="col">Time</th>
+                    <th scope="col">Monday</th>
+                    <th scope="col">Tuesday</th>
+                    <th scope="col">Wednesday</th>
+                    <th scope="col">Thursday</th>
+                    <th scope="col">Friday</th>
+                    <th scope="col">Saturday</th>
+                    <th scope="col">Sunday</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
-                    <th scope="row">1</th>
-                    <td>Mark</td>
-                    <td>Otto</td>
-                    <td>@mdo</td>
-                    <td>Mark</td>
-                    <td>Otto</td>
-                    <td>@mdo</td>
-                    <td>@mdo</td>
+                        <th scope="row" class="text-nowrap">08:00 - 09:00</th>
+                        <td>Power Yoga</td>
+                        <td>Classical Pilates</td>
+                        <td>Power Yoga</td>
+                        <td>Classical Pilates</td>
+                        <td>Power Yoga</td>
+                        <td>Classical Pilates</td>
+                        <td>Power Yoga</td>
                     </tr>
                     <tr>
-                    <th scope="row">2</th>
-                    <td>Jacob</td>
-                    <td>Thornton</td>
-                    <td>@fat</td>
+                        <th scope="row">09:00 - 10:00</th>
+                        <td>Full Body Fusion</td>
+                        <td>Latin Fitness</td>
+                        <td>Full Body Fusion</td>
+                        <td>Latin Fitness</td>
+                        <td>Full Body Fusion</td>
+                        <td>Latin Fitness</td>
+                        <td>Full Body Fusion</td>
                     </tr>
                     <tr>
-                    <th scope="row">3</th>
-                    <td>Larry</td>
-                    <td>the Bird</td>
-                    <td>@twitter</td>
+                        <th scope="row">10:00 - 11:00</th>
+                        <td>Zumba</td>
+                        <td>Power Pilates</td>
+                        <td>Zumba</td>
+                        <td>Power Pilates</td>
+                        <td>Zumba</td>
+                        <td>Power Pilates</td>
+                        <td>Zumba</td>
                     </tr>
                     <tr>
-                        <th scope="row">3</th>
-                        <td>Larry</td>
-                        <td>the Bird</td>
-                        <td>@twitter</td>
+                        <th scope="row">11:00 - 12:00</th>
+                        <td>Kickboxing</td>
+                        <td>Kickboxing</td>
+                        <td>Kickboxing</td>
+                        <td>Kickboxing</td>
+                        <td>Kickboxing</td>
+                        <td>Kickboxing</td>
+                        <td>Kickboxing</td>
                     </tr>
                     <tr>
-                        <th scope="row">3</th>
-                        <td>Larry</td>
-                        <td>the Bird</td>
-                        <td>@twitter</td>
+                        <th scope="row">16:00 - 17:00</th>
+                        <td>&mdash;<span class="sr-only">(no classes on this time slot)</span></td>
+                        <td>Classical Pilates</td>
+                        <td>&mdash;<span class="sr-only">(no classes on this time slot)</span></td>
+                        <td>Classical Pilates</td>
+                        <td>&mdash;<span class="sr-only">(no classes on this time slot)</span></td>
+                        <td>&mdash;<span class="sr-only">(no classes on this time slot)</span></td>
+                        <td>&mdash;<span class="sr-only">(no classes on this time slot)</span></td>
                     </tr>
                     <tr>
-                        <th scope="row">3</th>
-                        <td>Larry</td>
-                        <td>the Bird</td>
-                        <td>@twitter</td>
+                        <th scope="row">17:00 - 18:00</th>
+                        <td>Zumba</td>
+                        <td>Latin Fitness</td>
+                        <td>Zumba</td>
+                        <td>Latin Fitness</td>
+                        <td>Zumba</td>
+                        <td>&mdash;<span class="sr-only">(no classes on this time slot)</span></td>
+                        <td>&mdash;<span class="sr-only">(no classes on this time slot)</span></td>
                     </tr>
                     <tr>
-                        <th scope="row">3</th>
-                        <td>Larry</td>
-                        <td>the Bird</td>
-                        <td>@twitter</td>
+                        <th scope="row">18:00 - 19:00</th>
+                        <td>Power Yoga</td>
+                        <td>Power Pilates</td>
+                        <td>Power Yoga</td>
+                        <td>Power Pilates</td>
+                        <td>Power Yoga</td>
+                        <td>&mdash;<span class="sr-only">(no classes on this time slot)</span></td>
+                        <td>&mdash;<span class="sr-only">(no classes on this time slot)</span></td>
                     </tr>
                     <tr>
-                        <th scope="row">3</th>
-                        <td>Larry</td>
-                        <td>the Bird</td>
-                        <td>@twitter</td>
+                        <th scope="row">19:00 - 20:00</th>
+                        <td>Full Body Fusion</td>
+                        <td>Classical Pilates</td>
+                        <td>Full Body Fusion</td>
+                        <td>Classical Pilates</td>
+                        <td>Full Body Fusion</td>
+                        <td>&mdash;<span class="sr-only">(no classes on this time slot)</span></td>
+                        <td>&mdash;<span class="sr-only">(no classes on this time slot)</span></td>
                     </tr>
                     <tr>
-                        <th scope="row">3</th>
-                        <td>Larry</td>
-                        <td>the Bird</td>
-                        <td>@twitter</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">3</th>
-                        <td>Larry</td>
-                        <td>the Bird</td>
-                        <td>@twitter</td>
+                        <th scope="row">20:00 - 21:00</th>
+                        <td>Kickboxing</td>
+                        <td>Kickboxing</td>
+                        <td>Kickboxing</td>
+                        <td>Kickboxing</td>
+                        <td>Kickboxing</td>
+                        <td>&mdash;<span class="sr-only">(no classes on this time slot)</span></td>
+                        <td>&mdash;<span class="sr-only">(no classes on this time slot)</span></td>
                     </tr>
                 </tbody>
                 </table>
@@ -151,9 +176,9 @@
                 <h5>Contact</h5>
                 <ul class="list-unstyled">
                     <li>BeFit Gym</li>
-                    <li><i class="fas fa-map-marker-alt"></i>  Amsterdamweg 327</li>
-                    <li><i class="fas fa-phone-square"></i> 030 211 11 11</li>
-                    <li><i class="far fa-envelope"></i> info@befit.gym</li>
+                    <li><i class="fas fa-map-marker-alt" aria-hidden="true"></i>  Amsterdamweg 327</li>
+                    <li><i class="fas fa-phone-square" aria-hidden="true"></i> 030 211 11 11</li>
+                    <li><i class="far fa-envelope" aria-hidden="true"></i> info@befit.gym</li>
                 </ul>
             </div>
             <div id="social-media" class="col-6 col-sm-3 text-center">
