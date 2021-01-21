@@ -1,6 +1,7 @@
 /* ----------------------------------------General */
 body {
     font-family: 'Montserrat', sans-serif;
+    font-size: large;
 }
 
 #about-info, #gym-offers, #membership-options, #sign-up-form, #timetable, #confirm-msg  {
@@ -25,7 +26,7 @@ body {
 
 .section-header {
     text-transform: uppercase;
-    font-weight: 800;
+    font-weight: bold;
     text-align: center;
     margin-bottom: 0;
     padding: 50px 0 50px 0;
@@ -38,6 +39,7 @@ body {
     text-transform: uppercase;
     color: #ffc000;
     font-weight: 500;
+    font-size: medium;
 }
 
 .navbar .navbar-toggler {
@@ -50,7 +52,8 @@ from stackoverflow https://stackoverflow.com/questions/42586729/bootstrap-4-chan
 */
 
 .navbar .navbar-toggler-icon i{
-   color:#ffc000; font-size:29px;
+   color:#ffc000; 
+   font-size:29px;
 }
 
 .navbar .navbar-nav .nav-item a:hover {
@@ -74,10 +77,6 @@ from stackoverflow https://stackoverflow.com/questions/42586729/bootstrap-4-chan
     margin-bottom: 0;
 }
 
-.jumbotron p {
-    font-size: large;
-}
-
 /* ----------------------------------------About Us Section */
 
 #about-info p {
@@ -85,8 +84,18 @@ from stackoverflow https://stackoverflow.com/questions/42586729/bootstrap-4-chan
     margin: 0;
 }
 
-/* ToDo: 
-style About Us paragraph */
+#about-info span {
+   font-weight: bold;
+   background-color: rgba(242,201,76,.35); 
+   font-style: oblique;
+}
+
+#about-info p a {
+   font-weight: bold;
+   font-style: oblique;
+   color: #3F6F86;
+   
+}
 
 /* ----------------------------------------Gym Offers Section */
 
@@ -124,7 +133,6 @@ style paragraphs, add timetable/sign up form links to the text */
     text-align: center;
     text-decoration: underline;
     text-transform: uppercase;
-    font-weight: 700;
 }
 
 #membership-options .card-body .card-title {
@@ -134,6 +142,7 @@ style paragraphs, add timetable/sign up form links to the text */
 
 #membership-options .card-body ul {
     list-style-type: none;
+    font-size: medium;
 }
 
 /* ToDo: add and style paragraph after the title  */
@@ -156,17 +165,20 @@ form {
 
 form label {
     font-weight: 500;
+    font-size: medium;
 }
 
-/* capitalize all options in the dropdown except the disabled one */
+/* capitalize all options in the Options dropdown except the disabled one */
 form option:not([disabled]) {
     text-transform: capitalize;
 }
 
 form .btn {
     background-color: #3F6F86;
+    font-size: large;
 }
 
+/* set darker button color when hovering */
 form .btn:hover {
     background-color: #365768;
 }
@@ -223,20 +235,22 @@ form a:hover {
     text-align: center;
 }
 
-.table tbody td {
-     vertical-align: middle;
-}
-
-.table thead {
-     background-color: #4e5964;
-     text-transform: uppercase;
-    
+.table thead th {
+    background-color: #4e5964;  
+    text-transform: uppercase;
+    font-size: smaller;
 }
 
 .table tbody th {
      background-color: #4e5964;
      white-space: nowrap;
      vertical-align: middle;
+     font-size: smaller;
+}
+
+.table tbody td {
+    vertical-align: middle;
+    font-size: smaller;
 }
 
 /* ----------------------------------------Timetable Printing */
