@@ -1,6 +1,6 @@
 /* ----------------------------------------General */
 body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 #about-info, #gym-offers, #membership-options, #sign-up-form, #timetable  {
@@ -37,6 +37,7 @@ body {
 .navbar .navbar-nav .nav-link {
     text-transform: uppercase;
     color: #ffc000;
+    font-weight: 500;
 }
 
 .navbar .navbar-toggler {
@@ -73,6 +74,10 @@ from stackoverflow https://stackoverflow.com/questions/42586729/bootstrap-4-chan
     margin-bottom: 0;
 }
 
+.jumbotron p {
+    font-size: large;
+}
+
 /* ----------------------------------------About Us Section */
 
 #about-info p {
@@ -84,6 +89,23 @@ from stackoverflow https://stackoverflow.com/questions/42586729/bootstrap-4-chan
 style About Us paragraph */
 
 /* ----------------------------------------Gym Offers Section */
+
+#gym-offers .media img {
+    height:250px;
+    width:350px;
+    align-content: center;
+}
+
+#gym-offers .media-body h5 {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom:14px;
+    
+}
+
+#gym-offers .media-body p {
+    text-align: justify;   
+}
 
 /* ToDo: 
 style paragraphs, add timetable/sign up form links to the text */
@@ -122,6 +144,14 @@ form {
     padding-bottom: 70px;
 }
 
+#sign-up-form p {
+    font-size: large;
+}
+
+form label {
+    font-weight: 500;
+}
+
 form .btn {
     background-color: #3F6F86;
 }
@@ -141,7 +171,6 @@ capitalize options
 #footer-details h5 {
     text-transform: uppercase;
     font-size: 14px;
-    font-weight: bold;
     padding-top: 20px;
     color: #ffc000;
 } 

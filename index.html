@@ -3,11 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Home page of BeFit gym with About Us, Gym Offers, Prices/Membership Options, Sign Up form">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
         integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link
-        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
@@ -51,7 +52,7 @@
     </nav>
     <section class="jumbotron jumbotron-fluid">
         <div class="container">
-            <h5 class="text-left"><em>Fit is not a destination, it is a way of life.</em></h5>
+            <p><em>Fit is not a destination, it is a way of life.</em></p>
         </div>
     </section>
     <section id="about-info" class="container-fluid">
@@ -77,12 +78,11 @@
             </a>
             <div class="media">
                 <div class="d-none d-md-block">
-                    <img src="assets/images/gym-space.jpg" class="align-self-center mr-3" alt="Image of the gym room" height="250"
-                        width="350">
+                    <img src="assets/images/gym-space.jpg" class="mr-3" alt="Image of the gym room">
                 </div>
                 <div class="media-body">
-                    <h5 class="mt-0 text-center font-weight-bold">The gym</h5>
-                    <p class="text-justify">The gym is split into multiple zones that let you focus on carving out your goals. You'll
+                    <h5>The gym</h5>
+                    <p>The gym is split into multiple zones that let you focus on carving out your goals. You'll
                         have equipment
                         engineered to enhance your cardio, core, flexibility and strength.
                         Additionally our gym offers clean changing rooms with lockers and spacious showers.</p>
@@ -92,26 +92,24 @@
             <br>
             <div class="media">
                 <div class="media-body">
-                    <h5 class="mt-0 text-center font-weight-bold">Group classes</h5>
-                    <p class="text-left">Exercising together creates positive, dynamic energy and helps you push your limits. Join our fun
+                    <h5>Group classes</h5>
+                    <p>Exercising together creates positive, dynamic energy and helps you push your limits. Join our fun
                         group classes! Full body fusion, Zumba, Latin fitness, Power yoga, Pilates, and much more is available at BeFit.
-                        Find the ones that will inspire you and them right away. First trial class is free! </p>
+                        Find the ones that will inspire you and them right away. First trial class is free!</p>
                 </div>
                 <div class="d-none d-md-block">
-                    <img src="assets/images/group-lesson.jpg" class="align-self-center mr-3" alt="Image of pilates class" height="250"
-                        width="350">
+                    <img src="assets/images/group-lesson.jpg" class="ml-3" alt="Image of pilates class">
                 </div>
             </div>
             <br>
             <br>
             <div class="media">
                 <div class="d-none d-md-block">
-                    <img src="assets/images/personal-training.jpg" class="align-self-center mr-3"
-                        alt="Personal trainer is helping a client" height="250" width="350">
+                    <img src="assets/images/personal-training.jpg" class="mr-3" alt="Personal trainer is helping a client">
                 </div>
                 <div class="media-body">
-                    <h5 class="mt-0 text-center font-weight-bold">Personal training </h5>
-                    <p class="text-justify">Personal Training at BeFit means that our skilled personal trainers are always on hand to
+                    <h5>Personal training </h5>
+                    <p>Personal Training at BeFit means that our skilled personal trainers are always on hand to
                         make sure
                         you achieve your individual training goals, set new ones and keep the entire workout process enjoyable. You will
                         be
@@ -226,24 +224,25 @@
                 <div class="form-row">
                     <div class="col">
                         <label for="firstName">First Name</label>
-                        <input type="text" class="form-control" placeholder="Enter your first name" name="firstName" required>
+                        <input type="text" class="form-control" placeholder="Enter your first name" id="firstName" name="firstName" required>
                     </div>
                     <div class="col">
                         <label for="lastName">Last Name</label>
-                        <input type="text" class="form-control" placeholder="Enter your last name" name="lastName" required>
+                        <input type="text" class="form-control" placeholder="Enter your last name" id="lastName" name="lastName" required>
                     </div>
                 </div>
                 <br>
                 <div class="form-row">
                     <div class="col">
                         <label for="emailField">Email</label>
-                        <input type="email" class="form-control" placeholder="name@example.com" name="emailField" required>                       
+                        <input type="email" class="form-control" placeholder="name@example.com" id="emailField" name="emailField" required>                       
                     </div>
                 </div>
                 <br>
                 <div class="form-row">
                     <div class="col">
-                        <select class="form-control" name="signUpOptions">
+                        <label for="signUpOptions">Options</label>
+                        <select class="form-control" id="signUpOptions" name="signUpOptions">
                             <option disabled selected>Select an option...</option>
                             <option>off-peak</option>
                             <option>standard</option>
@@ -257,7 +256,7 @@
                 <div class="form-row">
                     <div class="col">
                         <label for="messageBox">Message</label>
-                        <textarea class="form-control" placeholder="Type your message here..." name="messageBox" rows="5"></textarea>
+                        <textarea class="form-control" placeholder="Type your message here..." id="messageBox" name="messageBox" rows="5"></textarea>
                     </div>
                 </div>
                 <br>
