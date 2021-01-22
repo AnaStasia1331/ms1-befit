@@ -115,18 +115,18 @@ from stackoverflow https://stackoverflow.com/questions/42586729/bootstrap-4-chan
 #gym-offers button {
     background-color: #f8cd4a;
     color:black;
-    border: 2px solid #ffc000;
+    border: thin solid #ffc000;
     font-weight: bold;
     font-size: large;
 }
 #gym-offers button:hover {
     background-color: #ca9903;
-    border: 2px solid #ca9903;
+    border: thin solid #ca9903;
 }
 
 #gym-offers button:focus {
     background-color: #ca9903;
-    border: 2px solid #ca9903;
+    border: thin solid #ca9903;
     box-shadow: none;
 }
 
@@ -141,12 +141,13 @@ style paragraphs, add timetable/sign up form links to the text */
     border-color: #ffc000;
     border-style: solid;
     border-width: thin;
+    margin-top: 10px;
 }
 
 #membership-options .card .card-header h4 {
     text-align: center;
-    text-decoration: underline;
     text-transform: uppercase;
+    margin: 0;
 }
 
 #membership-options .card-body .card-title {
@@ -154,9 +155,18 @@ style paragraphs, add timetable/sign up form links to the text */
     margin-bottom: 20px;
 }
 
-#membership-options .card-body ul {
+#membership-options ul {
     list-style-type: none;
     font-size: medium;
+    padding: 0 20px;
+}
+
+#membership-options ul li::before {
+  content: "\2713";
+  color: #ffc000;
+  font-weight: bolder;
+  display: inline-block; 
+  font-size: 130%;
 }
 
 /* ToDo: add and style paragraph after the title  */
