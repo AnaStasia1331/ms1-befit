@@ -156,13 +156,12 @@ from stackoverflow https://stackoverflow.com/questions/42586729/bootstrap-4-chan
     margin-bottom: 20px;
 }
 
-#membership-options ul {
-    list-style-type: none;
+#membership-options p {
     font-size: medium;
     padding: 0 20px;
 }
 
-#membership-options ul li::before {
+#membership-options .card-body p::before {
   content: "\2713";
   color: #ffc000;
   font-weight: bolder;
