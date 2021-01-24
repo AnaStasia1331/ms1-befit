@@ -130,9 +130,6 @@ from stackoverflow https://stackoverflow.com/questions/42586729/bootstrap-4-chan
     box-shadow: none;
 }
 
-/* ToDo: 
-style paragraphs, add timetable/sign up form links to the text */
-
 /* ----------------------------------------Membership Options Section */
 
 #membership-options .card {
@@ -168,8 +165,6 @@ style paragraphs, add timetable/sign up form links to the text */
   display: inline-block; 
   font-size: 130%;
 }
-
-/* ToDo: add and style paragraph after the title  */
 
 /* ----------------------------------------Sign Up Form */
 
