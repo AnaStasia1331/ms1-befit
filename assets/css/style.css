@@ -86,6 +86,10 @@ from stackoverflow https://stackoverflow.com/questions/42586729/bootstrap-4-chan
     margin-bottom: 0;
 }
 
+.jumbotron h6 {
+    font-size: large;
+}
+
 /* ----------------------------------------About Us Section */
 
 #about-info p {
@@ -112,19 +116,19 @@ from stackoverflow https://stackoverflow.com/questions/42586729/bootstrap-4-chan
     text-align: justify;   
 }
 
-#gym-offers button {
+#gym-offers .btn {
     background-color: #f8cd4a;
     color:black;
     border: thin solid #ffc000;
     font-weight: bold;
     font-size: large;
 }
-#gym-offers button:hover {
+#gym-offers .btn:hover {
     background-color: #ca9903;
     border: thin solid #ca9903;
 }
 
-#gym-offers button:focus {
+#gym-offers .btn:focus {
     background-color: #ca9903;
     border: thin solid #ca9903;
     box-shadow: none;
@@ -299,10 +303,10 @@ form a:hover {
     text-align: center;
 }
 
-#confirm-msg button {
+#confirm-msg .btn {
     background-color: #3F6F86;
 }
 
-#confirm-msg button:hover {
+#confirm-msg .btn:hover {
     background-color: #365768;
 }
