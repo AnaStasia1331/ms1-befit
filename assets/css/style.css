@@ -90,6 +90,8 @@ from stackoverflow https://stackoverflow.com/questions/42586729/bootstrap-4-chan
     font-size: large;
 }
 
+/* ToDo: add media query: different paragraph size for different screens  */
+
 /* ----------------------------------------About Us Section */
 
 #about-info p {
@@ -157,7 +159,6 @@ from stackoverflow https://stackoverflow.com/questions/42586729/bootstrap-4-chan
 }
 
 #membership-options p {
-    font-size: medium;
     padding: 0 20px;
 }
 
