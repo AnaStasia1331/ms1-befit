@@ -46,11 +46,44 @@ As a website user, I want to:
 
 # Technologies Used
 
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
+The below list includes all of the languages, frameworks, tools, learning platforms and stock image websites I have used to construct this project. 
 
-- [JQuery](https://jquery.com)
-    - The project uses **JQuery** to simplify DOM manipulation.
-
+- [HTML](https://en.wikipedia.org/wiki/HTML5)
+    - The project used **HTML** to structure the web pages and its content.
+- [CSS](https://en.wikipedia.org/wiki/CSS)
+    - used to style the website.
+- [Bootstrap 4.5](https://getbootstrap.com/docs/4.5/getting-started/introduction/)
+    - used Bootstrap components to design the responsive website faster.
+- [Git](https://git-scm.com/)
+    - used as a version control system that makes it easier to track changes to files.
+- [GitHub](https://github.com/)
+    - used as a web-based platform to store and share the project.
+- [Gitpod](https://www.gitpod.io/)
+    - used as a cloud-based integrated developer environment.
+- [Font Awesome](https://fontawesome.com/)
+    - used to add icons on the web pages.
+- [Google fonts](https://fonts.google.com/)
+    - used to import 'Montserrat' font.
+- [Balsamiq](https://balsamiq.com/wireframes/)
+    - used to create the wireframes before writing any code.
+- [Unsplash](https://unsplash.com/s/photos/gym)
+    - used to get free high resolution photos for the project.
+- [Photopea](https://www.photopea.com/)
+    - used as an online photo editor to make the Bitfit logo.
+- [ColorPick Eyedropper](https://chrome.google.com/webstore/detail/colorpick-eyedropper/ohcpnigalekghcmgcdcenkpelffpdolg)
+    - a Chrome plugin that was used to get a desired color code from web pages.
+- [Chrome dev tools](https://developers.google.com/web/tools/chrome-devtools)
+    - used to debug issues, modify the pages on-the-fly, test responsiveness.
+- [Freepik](https://www.freepik.com/free-icon/dumbbell_729503.htm)
+    - used to find and insert the dumbell image in the head title.
+- [Stack Overflow](https://stackoverflow.com/)
+    - used to find answers to tough coding questions.
+- [CSS Divider Examples](https://blog.avada.io/css/dividers/)
+    - took the divider example called 'FreeCodeCamp style dividing line' by Jeffrey thomas and restyled it to fit my site design idea.
+- [Code Institute learning platform](https://codeinstitute.net/)
+    - used to revise the theory of CSS/HTML/User Centric Frontend Development.
+- [W3schools](https://www.w3schools.com/)
+    - used to revise the theory of CSS/HTML and find solutions for code issues.
 
 # Testing
 
