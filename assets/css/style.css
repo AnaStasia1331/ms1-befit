@@ -86,11 +86,30 @@ from stackoverflow https://stackoverflow.com/questions/42586729/bootstrap-4-chan
     margin-bottom: 0;
 }
 
-.jumbotron h6 {
-    font-size: large;
+
+/* Media queries for the jumbotron header: */
+
+/* extra small and small devices */
+@media only screen and (min-width: 0px) {
+    .jumbotron h6 {
+    font-size: medium;
+    }
 }
 
-/* ToDo: add media query: different paragraph size for different screens  */
+/* medium, large and extra large devices (up to 2560px) */
+@media only screen and (min-width: 768px) {
+    .jumbotron h6 {
+    font-size: large;
+    }
+}
+
+/* extra large devices (2560px and up) */
+@media only screen and (min-width: 2560px) {
+            .jumbotron h6 {
+    font-size:x-large;
+    text-align: right;
+    }
+}
 
 /* ----------------------------------------About Us Section */
 

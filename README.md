@@ -1,34 +1,53 @@
-# BeFit Gym Website
+## Contents
+- [Befit gym website](#befit-gym-website)
+- [UX](#ux)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Testing](#testing)
+- [Deployment](#deployment)
+- [Credits](#credits)
 
-One or two paragraphs providing an overview of your project.
 
-Essentially, this part is your sales pitch.
- 
-## UX
- 
-Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+# Befit gym website
+Befit gym website is a responsive web application built using HTML and CSS. It was created to demonstrate my front-end skills for Milestone Project 1 of Code Institute’s Full Stack Developer course.
 
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
-- As a user type, I want to perform an action, so that I can achieve a goal.
+![screen shots on various devices](assets/images/readme-images/amIResponsive.JPG)
 
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
+# UX
 
-## Features
+## Who is this website for?
+The target audience are gym members or potential members.
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
- 
-### Existing Features
-- Feature 1 - allows users X to achieve Y, by having them fill out Z
-- ...
+## What it is that they want to achieve?
+There are 2 main purposes for visiting the website:
+- learn more about the gym and its service
+- be able to sign up for one of the options the gym offers.
 
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
+## How does the project fulfil the users’ needs?
+By providing all necessary information and features. Implemented user requirements are listed below in the User Stories section.
 
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+## Wireframes
+Before starting the actual development, the wireframes were created using Balsamiq tool. They give an initial idea of how the structure and content for the Home and Timetable pages would look like. Please find the links to PDFs below:
+- <a href="https://github.com/AnaStasia1331/ms1-befit/tree/master/assets/images/readme-images/wireframe-home-page.pdf" target="_blank">Home Page</a>
+- <a href="https://github.com/AnaStasia1331/ms1-befit/tree/master/assets/images/readme-images/wireframe-timetable.pdf" target="_blank">Timetable Page</a> 
 
-### Features Left to Implement
-- Another feature idea
+## User Stories 
+As a website user, I want to:
 
-## Technologies Used
+1. navigate throughout the gym site with intuitive web design and clearly defined main sections.
+2. learn about gym's purpose/goals and main features.
+3. familiar with the activities the gym offers.
+4. be aware of prices asked for the gym offers.
+5. be able to sign up for gym membership or just a single visit.
+6. be able to look up the schedule of the group classes.
+7. know about the gym working hours, contact information and location.
+8. access the gym's social media links so that I can see their followings and subscribe to the news.  
+9. be able to come back to the Home page from any other website page.
+10. use the website on mobile, tablet or desktop with equally good experience on all devices.
+11. be able to understand the content of the site using a screen reader.
+12. the website pages are loaded without significant delays.
+
+# Technologies Used
 
 In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
 
@@ -36,7 +55,7 @@ In this section, you should mention all of the languages, frameworks, libraries,
     - The project uses **JQuery** to simplify DOM manipulation.
 
 
-## Testing
+# Testing
 
 In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
@@ -56,7 +75,7 @@ You should also mention in this section any interesting bugs or problems you dis
 
 If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
-## Deployment
+# Deployment
 
 This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
 
@@ -68,7 +87,7 @@ In particular, you should provide all details of the differences between the dep
 In addition, if it is not obvious, you should also describe how to run your code locally.
 
 
-## Credits
+# Credits
 
 ### Content
 - The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
