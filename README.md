@@ -1,7 +1,6 @@
 ## Contents
 - [Befit gym website](#befit-gym-website)
 - [UX](#ux)
-- [Features](#features)
 - [Technologies Used](#technologies-used)
 - [Testing](#testing)
 - [Deployment](#deployment)
@@ -27,9 +26,7 @@ There are 2 main purposes for visiting the website:
 By providing all necessary information and features. Implemented user requirements are listed below in the User Stories section.
 
 ## Wireframes
-Before starting the actual development, the wireframes were created using Balsamiq tool. They give an initial idea of how the structure and content for the Home and Timetable pages would look like. Please find the links to PDFs below:
-- <a href="https://github.com/AnaStasia1331/ms1-befit/tree/master/assets/images/readme-images/wireframe-home-page.pdf" target="_blank">Home Page</a>
-- <a href="https://github.com/AnaStasia1331/ms1-befit/tree/master/assets/images/readme-images/wireframe-timetable.pdf" target="_blank">Timetable Page</a> 
+Before starting the actual development, the [wireframes](https://github.com/AnaStasia1331/ms1-befit/tree/master/assets/images/readme-images/befit-wireframes.pdf) were created using Balsamiq tool. They give an initial idea of how the structure and content for the Home and Timetable pages would look like.
 
 ## User Stories 
 As a website user, I want to:
