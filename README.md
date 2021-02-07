@@ -10,7 +10,7 @@
 # Befit gym website
 Befit gym website is a responsive web application built using HTML and CSS. It was created to demonstrate my front-end skills for Milestone Project 1 of Code Institute’s Full Stack Developer course.
 
-![screen shots on various devices](assets/images/readme-images/amIResponsive.JPG)
+![screen shots on various devices](assets/images/readme-images/am-i-responsive.JPG)
 
 # UX
 
