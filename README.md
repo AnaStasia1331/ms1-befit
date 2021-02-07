@@ -93,7 +93,7 @@ The below list includes all of the languages, frameworks, tools, learning platfo
 
 # Testing
 
-## Testing environments
+## Test environments
 During development of the website I used the Google Chrome dev tool to check the responsiveness of the implemeted code. The final testing of the deployed site I've performed on the devices:
 - **Laptop HP ENVY x360 Convertible 15-cn0xxx**, 1920x1080-pixel screen resolution, Google Chrome & Firefox browsers.
 - **Iphone XR** with 1792 x 828-pixel screen resolution, Safari browser.
@@ -151,24 +151,34 @@ During development of the website I used the Google Chrome dev tool to check the
 
 # Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
+## GitHub Pages
 
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-- Different values for environment variables (Heroku Config Vars)?
-- Different configuration files?
-- Separate git branch?
+I've published my website using GitHub Pages, a static site hosting service. To deploy a project, one should follow these steps:
 
-In addition, if it is not obvious, you should also describe how to run your code locally.
+1. Log into GitHub and navigate to your repository.
+2. Find the Settings tab and click on it.
+3. Scroll down the page until you see the GitHub Pages section.
+4. In the Source sub-section choose master branch from the dropdown.
+5. Save your changes. After that the message should be shown 'Your site is published at (url)'.
 
+My project can be accessed via this link https://anastasia1331.github.io/ms1-befit/
+
+## Run the project locally
+
+Steps:
+
+1. Open the repository in GitHub https://github.com/AnaStasia1331/ms1-befit .
+2. Find the Code button, choose the HTTPS clone option, copy the command.
+3. Open a local directory where you want to clone the project to.
+4. Open the Git Bash terminal in that directory.
+5. Type the command 'git clone' plus the copied https url. 
+6. After executing the command, the repository will be created in the local directory.
 
 # Credits
 
-### Content
-- The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
-
 ### Media
-- The photos used in this site were obtained from ...
+- The photos used in this site were obtained from this website [Unsplash](https://unsplash.com/s/photos/gym).
 
 ### Acknowledgements
 
-- I received inspiration for this project from X
+- Thank you to my mentor for the provided feedback and hints.
